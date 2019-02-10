@@ -1,6 +1,6 @@
 <template>
   <div>
-      <textarea :id="id">{{ content }}</textarea>
+      <textarea :id="id" v-model="value">{{ content }}</textarea>
   </div>
 </template>
 
